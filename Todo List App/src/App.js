@@ -10,13 +10,21 @@ const App = () => {
     setInputList(event.target.value)
   };
 
-  let arr = []
   const listofItems = () => {
     setItems((oldItems) => {
       return [...oldItems, inputList];
     });
     setInputList("");
   };
+
+  const deleteItems = (id) => {
+    setItems((oldItems)=>{
+      return oldItems.filter((arrElem, index)=>{
+        return index !== id;
+
+      })
+    })
+  }
   return (
     <>
       <div className='main_div'>
@@ -31,8 +39,9 @@ const App = () => {
             +
           </button>
           <ol>
-            {Items.map((itemval) => {
-              return <ToDoList text={itemval}/>
+            {Items.map((itemval, index) => {
+              return <ToDoList key={index} id={index} text={itemval} 
+              onSelect={deleteItems} />
             })}
           </ol>
         </div>
