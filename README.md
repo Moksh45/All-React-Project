@@ -29,11 +29,12 @@ Each project has its own directory with the project's source code (`src` folder)
 
 ## Projects
 
-<!-- The repository currently includes the following projects: -->
+ The repository currently includes the following projects: 
 
-<!-- 1. **Project 1**: [Short project description and purpose.](project-1/README.md)
-2. **Project 2**: [Short project description and purpose.](project-2/README.md)
-3. **Project 3**: [Short project description and purpose.](project-3/README.md) -->
+1. **ToDo List Web App**: https://6489158b1d9ae04572258d77--mokshgupta.netlify.app/ <br>
+
+<!-- 2. **Project 2**: [Short project description and purpose.](project-2/README.md)
+3. **Project 3**: [Short project description and purpose.](project-3/README.md)  -->
 
 Feel free to explore each project's directory for more information about the specific project, its features, and how to run it locally.
 
